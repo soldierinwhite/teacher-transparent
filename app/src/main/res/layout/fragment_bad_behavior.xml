@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BadBehaviorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_horizontal_margin">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/disruptive_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Disrupting" />
+
+            <Button
+                android:id="@+id/class_rules_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Violating rule" />
+
+            <Button
+                android:id="@+id/refusing_work_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Refusing work" />
+
+            <Button
+                android:id="@+id/verbal_abuse_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Verbal abuse" />
+
+            <Button
+                android:id="@+id/physical_abuse_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Physical abuse" />
+
+            <Button
+                android:id="@+id/damaging_property_button"
+                style="@style/BehaviorItem"
+                android:layout_marginBottom="2dp"
+                android:text="Property damage" />
+
+            <Button
+                android:id="@+id/other_infringement_button"
+                style="@style/BehaviorItem"
+                android:text="Other" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

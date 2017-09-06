@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:background="@color/fragmentBackground"
+    android:orientation="horizontal"
+    tools:context="io.github.soldierinwhite.teachertransparent.BehaviorTypeFragment">
+
+    <ImageView
+        android:id="@+id/good_button_img"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_weight="1"
+        android:src="@drawable/thumb_up"/>
+
+    <ImageView
+        android:id="@+id/bad_button_img"
+        android:layout_width="?android:attr/listPreferredItemHeight"
+        android:layout_height="?android:attr/listPreferredItemHeight"
+        android:layout_weight="1"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:src="@drawable/thumb_down"/>
+
+</LinearLayout>

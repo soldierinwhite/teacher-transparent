@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">TeacherTransParent</string>
+
+    <string name="action_add_class">Add class</string>
+
+    <string name="class_name_label">Class Name</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
